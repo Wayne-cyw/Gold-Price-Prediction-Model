@@ -24,13 +24,13 @@ In order to achieve better results, the following features are calculated from t
 [Data Analytics.py](<Data Analytics.py>):
 Then to optimize the model and minimize the noise, the data is analyized to identify features that have extreme corrlation correlation. Through the following heatmap, a direct correlation can be identified.
 
-![Heatmap1.png](Images/Heatmap1.png)
+![Heatmap1.png]((https://github.com/Wayne-cyw/Stock-Price-Prediction-Model/blob/main/Heatmap1.png))
 
 The data that has extreme correlation were then removed. 
 
 Here's a new heatmap:
-
-![Heatmap2.png](Images/Heatmap2.png)
+[
+![Heatmap2.png](https://github.com/Wayne-cyw/Stock-Price-Prediction-Model/blob/main/Heatmap2.png)
 
 With reduced redundantcy, it can be proceeded to train the model.
 
