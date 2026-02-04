@@ -24,12 +24,11 @@ In order to achieve better results, the following features are calculated from t
 [Data Analytics.py](<Data Analytics.py>):
 Then to optimize the model and minimize the noise, the data is analyized to identify features that have extreme corrlation correlation. Through the following heatmap, a direct correlation can be identified.
 
-![Heatmap1.png]((https://github.com/Wayne-cyw/Stock-Price-Prediction-Model/blob/main/Heatmap1.png))
+![Heatmap1.png](https://github.com/Wayne-cyw/Stock-Price-Prediction-Model/blob/main/Heatmap1.png)
 
 The data that has extreme correlation were then removed. 
 
 Here's a new heatmap:
-[
 ![Heatmap2.png](https://github.com/Wayne-cyw/Stock-Price-Prediction-Model/blob/main/Heatmap2.png)
 
 With reduced redundantcy, it can be proceeded to train the model.
@@ -37,3 +36,10 @@ With reduced redundantcy, it can be proceeded to train the model.
 
 [main.py](main.py):
 
+Dataset that been through pre-processing are now split into features and target. Then it is cleaned to remove NaN and infinitie, and check to ensure data types are suitable for sklearn.
+
+The radnom forrest regressor model achived a R^2 error of 0.999798...
+
+Here is a comparison graph of the actual price vs predicted price:
+
+![Actual price vs predicted price.png](https://github.com/Wayne-cyw/Stock-Price-Prediction-Model/blob/main/Actual%20price%20vs%20predicted%20price.png)
